@@ -17,7 +17,7 @@ library(shiny)
 
 
 
-ItalianData <- read.csv(system.file("data", "2030378.csv", package="Temperatures")
+ItalianData <- read.csv(system.file("Data", "2030378.csv", package="Weather"), header = TRUE)
 
 
 ItalianData$YEAR <- substring(ItalianData$DATE,1,4)
