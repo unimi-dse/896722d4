@@ -12,12 +12,12 @@ library(ggplot2)
 library(shiny)
 
 
-#setwd("C:/users/mcasagli/Documents/Progetto R/")
+#setwd("C:/users/mcasagli/Documents/WeatherGit")
 #ItalianData <- read.csv(file = '2030378.csv', header = TRUE)
 
 
 
-ItalianData <- read.csv(system.file("Data", "2030378.csv", package="Weather"), header = TRUE)
+ItalianData <- read.csv(system.file("extdata", "2030378.csv", package="Weather"), header = TRUE)
 
 
 ItalianData$YEAR <- substring(ItalianData$DATE,1,4)
