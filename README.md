@@ -7,6 +7,7 @@ he goal of the package is to plot temperatures data of italian weather station o
 # Install 
 
 ```R
+install.packages(c("shiny","ggplot2","devtools"))
 devtools::install_github("unimi-dse/896722d4")
 ```
 # Usage
