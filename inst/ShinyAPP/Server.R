@@ -2,8 +2,8 @@
 # Server
 server <- function(input, output) {
 
-#library(ggplot2)
-#library(shiny)
+library(ggplot2)
+library(shiny)
 
 ItalianData <- read.csv(system.file("extdata", "2030378.csv", package="Weather"), header = TRUE)
 
